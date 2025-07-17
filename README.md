@@ -11,7 +11,7 @@ Zhijia Yang, Kun Gao^※^, Yanzheng Zhang, Xiaodian Zhang, Zibo Hu, Junwei Wang,
 This repository provides the official implementation of **DSFuse**, a novel dual-diffusion structure for infrared and visible image fusion. DSFuse leverages generative priors from diffusion models to address **conflicting modality information** and achieve **feature fidelity** in fused images. It combines a transformer-based fusion network (**RTFusionNet**) with dual **diffusion modules** for enhanced supervision and reconstruction feedback.
 
 > 📝 Accepted by *IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2025*  
-> 📄 Paper DOI: [10.1109/TNNLS.2025.3584834](https://ieeexplore.ieee.org/document/3584834)
+> 📄 Paper DOI: [10.1109/TNNLS.2025.3584834](https://ieeexplore.ieee.org/document/11074762)
 
 
 <p align="center">
