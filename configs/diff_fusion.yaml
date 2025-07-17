@@ -1,0 +1,30 @@
+base_config:
+  - ./diff_base.yaml
+
+batch_size: 16
+max_updates: 600000
+
+# 预载入的融合参数
+
+fusion_weights_path: "./fusion_weight/tardal.pt"
+fusion_from_checkpoint: false
+
+
+# 训练集路径参数
+path_ir: "/data1/yzj/FusionData/ir/"
+path_vi: "/data1/yzj/FusionData/vi/"
+path_mask: "/data1/yzj/FusionData/mask/"
+crop_size: 160
+upscale_factor: 1
+
+
+# 验证集参数
+path_val_ir: "/data1/yzj/IR_VI/val/ir_v/"
+path_val_vi: "/data1/yzj/IR_VI/val/vis_v/"
+path_val_mask: "/data1/yzj/IR_VI/val/ir_v/"
+
+
+# 测试集参数
+path_test_ir: "/data1/yzj/test_data/ir/"
+path_test_vi: "/data1/yzj/test_data/vi/"
+path_test_mask: "/data1/yzj/test_data/ir/"

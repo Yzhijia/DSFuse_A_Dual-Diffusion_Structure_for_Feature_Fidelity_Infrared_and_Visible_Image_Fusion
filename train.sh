@@ -1,0 +1,1 @@
+python task/trainer.py --config configs/diff_fusion.yaml --exp_name diff_fusion --reset
