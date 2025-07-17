@@ -54,7 +54,6 @@ DSFuse/
 
 ```bash
 gh repo clone Yzhijia/DSFuse_A_Dual-Diffusion_Structure_for_Feature_Fidelity_Infrared_and_Visible_Image_Fusion
-pip install -r requirements.txt
 ```
 
 ## 🖼️ Dataset
