@@ -66,7 +66,7 @@ We provide the **MSIV dataset**, which includes:
 - Multiple conditions: day, night, rain
 
 📥 [Download MSIV Dataset](https://github.com/Yzhijia/Multi-Scenary-Infrared-and-Visible-images-dataset)
-📥 [Download MSIV Dataset for Detection](https://github.com/Yzhijia/Multi-Scenary-Infrared-and-Visible-images-dataset)
+📥 [Download MSIV Dataset for Detection](https://drive.google.com/file/d/1FW9tsDdLY-vy_eJgA8qP1a29tfgQEL54/view?usp=drive_link)
 You can also use standard datasets:
 
 - [LLVIP](https://github.com/bupt-ai-cz/LLVIP)
@@ -86,9 +86,8 @@ data/
 ```
 
 ## 🏁 Quick Start
-
+📥 [Download pretrained or evaluation models](https://drive.google.com/file/d/1ixwQhKAt0R24q2ge2w38utNvVte9o4D3/view?usp=drive_link)
 ### Training
-
 ```bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port=1234 task/trainer_swin.py --fusion_loss_type SADLoss --fusion_model_type RTFusionNet --config configs/diff_fusion.yaml --exp_name RTFusionNet_SADLoss_nores --reset
 ```
